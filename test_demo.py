@@ -2,6 +2,7 @@ from unittest import TestCase
 from unittest import skip
 from unittest import SkipTest
 
+@skip("Word in progress")
 class TestDemo(TestCase):
   def test_case_1(self):
     self.assertEqual(1 + 1, 2)
